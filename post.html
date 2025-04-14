@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Blog Post</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>My First Blog Post</h1>
+        <p>Welcome to my first post! In this article, I'll be talking about the basics of web development...</p>
+        
+        <section class="comments">
+            <h3>Comments</h3>
+            <form id="commentForm">
+                <textarea placeholder="Write your comment here..." required></textarea>
+                <button type="submit">Submit Comment</button>
+            </form>
+            <ul id="commentList">
+                <!-- Comments will be added here dynamically -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Blog</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
